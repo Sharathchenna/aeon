@@ -19,7 +19,7 @@ labels = [label.name for label in issue.get_labels()]
 
 if (
     issue.pull_request is None
-    or comment_user != "aeon-actions-bot[bot]"
+    or comment_user != "aeon-actions-bot1[bot]"
     or "## Thank you for contributing to `aeon`" not in comment_body
 ):
     with open(os.environ["GITHUB_OUTPUT"], "a") as fh:

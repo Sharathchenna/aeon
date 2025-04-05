@@ -17,7 +17,7 @@ EXCLUDED_USERS = [
     "github-actions[bot]",
     "allcontributors[bot]",
     "sweep-ai[bot]",
-    "aeon-actions-bot[bot]",
+    "aeon-actions-bot1[bot]",
     "dependabot[bot]",
 ]
 
